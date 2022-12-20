@@ -1,3 +1,16 @@
-p{
+h1{
+    color: chocolate;
+    background-color: aquamarine;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    color: blueviolet;
+}
+body{
+    background-color: brown;
+}
+p{
+color: aqua;
+background-color: blue;
+font-family: sans-serif
 }

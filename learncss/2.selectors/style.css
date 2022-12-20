@@ -1,0 +1,20 @@
+* {
+    font-family: fantasy;
+}
+    body{
+    font-size: medium;
+background-color: gold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#first{
+    color: black;
+}
+.purple{
+    color: purple;
+    font-weight: nonospace;
+}
+.highlight{
+    background-color: green;
+    font-weight: bolder;
+    font-style: italic;
+}
