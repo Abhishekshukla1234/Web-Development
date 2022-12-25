@@ -7,10 +7,15 @@ button{
     color: blueviolet;
 }
 body{
-    background-color: brown;
+    background-color: rgba(171, 171, 171, 0.793);
 }
 p{
 color: aqua;
 background-color: blue;
 font-family: sans-serif
+}
+article{
+    color: aliceblue;
+    padding: 40px;
+    margin: 40px;
 }

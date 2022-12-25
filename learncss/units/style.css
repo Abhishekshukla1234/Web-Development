@@ -1,0 +1,23 @@
+main{
+    border: 5px dotted burlywood;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 50;
+}
+body{
+    font-size: 2em;
+}
+header
+{
+font-size: 2em;
+}
+h1
+{
+}
+section
+{
+    border: 10px solid blue;
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 100px;
+}
