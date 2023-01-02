@@ -1,0 +1,8 @@
+.box
+{
+    border: 20px solid green ;
+    padding: 40px 30px 20px 20px;
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+}
