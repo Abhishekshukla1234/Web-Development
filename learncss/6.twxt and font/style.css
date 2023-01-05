@@ -1,0 +1,13 @@
+background {
+    color: aqua;
+}
+p{
+    word-spacing: 40px;
+}
+h1{
+    /*text-decoration-line: line;
+    text-decoration-color: blue;
+    text-decoration-style:dotted;*/
+    text-shadow: 4px 4px 1px red, 8px 8px 1px blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
