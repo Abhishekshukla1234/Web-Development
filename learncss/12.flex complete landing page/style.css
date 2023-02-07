@@ -33,6 +33,13 @@ a{
     text-decoration: none;
     display: inline-block;
 }
+
+
+ul{
+    list-style: none;
+}
+
+
 /* utility classes */
 
 
@@ -52,6 +59,7 @@ a{
     align-items: center;
 }
 
+
 /* top banner */
 .top-banner{
     background-color: #1d69a3;
@@ -62,4 +70,24 @@ a{
     color: white;
     padding: 15px 30px;
     text-align: center;
+}
+
+/* nav bar */
+
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+.company-logo img {
+    width: 200px;
+}
+
+.nav-links{
+    flex-basis: 730px;
+}
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
 }
