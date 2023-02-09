@@ -188,6 +188,27 @@ ul{
     flex-direction: column;
     gap: 40px;
     max-width: 25%;
-    text-align: center;
-   
+    text-align: center;  
+}
+
+
+/* big feature section */
+
+.big-feature-section{
+    padding: 30px var(--padding-inline-section) 0;
+}
+
+.big-feature-container{
+    gap: 30px;
+}
+
+
+.feature-img img{
+    width: 100%;
+}
+ 
+
+.feature-desc{
+    flex-direction: column;
+    align-items: flex-start;
 }
