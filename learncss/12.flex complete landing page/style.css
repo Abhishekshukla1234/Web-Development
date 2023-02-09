@@ -187,6 +187,7 @@ ul{
 .feature-card{
     flex-direction: column;
     gap: 40px;
-    max-width: 30%;
+    max-width: 25%;
     text-align: center;
+   
 }
