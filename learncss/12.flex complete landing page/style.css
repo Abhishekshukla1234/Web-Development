@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&family=Roboto:ital,wght@0,700;1,400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&family=Roboto:ital,wght@0,200;1,400&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -164,3 +164,29 @@ ul{
  .logo{
     height: 40px;
  }
+
+ /* feature section */
+
+ .feature-section{
+    padding: 80px var(--padding-inline-section);
+    background-image: url(./assets/asset\ 33.svg);
+ }
+ .feature-header{
+    text-align: center;
+ }
+
+ .feature-header-text{
+ margin-bottom: 20px;
+ }
+.features-area{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+.feature-card{
+    flex-direction: column;
+    gap: 40px;
+    max-width: 30%;
+    text-align: center;
+}
