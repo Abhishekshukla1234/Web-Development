@@ -219,12 +219,16 @@ ul{
     gap: 20px;
 }
 
+.example-area{
+ justify-content: space-between;
+ margin-block: 30px;
+}
 .example-card{
     width: 23%;
     position: relative;
     min-height: 300px;
-    background: black;
-    background-image: url(./assets/asset\ 36.jpeg);
+    color: black;
+   
 }
 
 .card-text{
@@ -234,3 +238,4 @@ ul{
     right: 20px;
     color: white;
 }
+
