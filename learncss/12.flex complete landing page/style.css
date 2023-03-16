@@ -52,6 +52,7 @@ ul{
     max-width: 1180px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
+    overflow:hidden;
 }
 
 .flex {
@@ -125,6 +126,10 @@ ul{
     justify-content: end;
     gap: 40px;
 }
+
+.nav-toggle{
+    display: none;
+}
  /* header section */
 
 
@@ -144,7 +149,7 @@ ul{
     margin-top: 20px;
 }
  .header-right img{
-    width: 600px;
+    width:100%;
  }
 
 
@@ -157,8 +162,9 @@ ul{
  }
 
  .logos{
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 20px;
  }
 
  .logo{
@@ -225,6 +231,7 @@ ul{
 .example-area{
  justify-content: space-between;
  margin-block: 30px;
+ flex-wrap: wrap;
 }
 .example-card{
     width: 23%;
@@ -288,4 +295,44 @@ footer{
 .subfooter-container{
     justify-content: center;
     gap: 30px;
+}
+
+
+@media screen and (max-width: 991px){
+    h3{
+        font-size: 1.2rem;
+    }
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .example-area{
+        gap: 20px;
+    }
+    .example-card{
+        width: calc(50%-5px);
+    height: 180px;
+   }
+   .cta-section{
+    padding-block: 180px;
+   }
+
+}
+
+
+@media screen and (max-width: 767px){
+    .primary-button{
+        width: 100%;
+    }
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        max-width: 100vw;
+        text-align: center;
+    }
 }
