@@ -4,28 +4,23 @@
     box-sizing: border-box;
 }
 
-:root{
-    --primary-text-color:#fff;
-    --secondary-text-color:#333;
-    --card-background-color:#fff;
-    --background-color:#eee;
-}
-
 .dark{
     --primary-text-color:#fff;
     --secondary-text-color:#ddd;
     --card-background-color:#333;
-    --background-color:#111;
+    --background-color:#c12b2b;
 }
 
 .container{
     min-height: 100vh;
     padding: 40px;
-    background-color: (var--background-color);
-
+    background-color: var(--background-color);
 }
 h1{
     text-align: center;
+    background-color: var(--background-color);
+    font-style: oblique;
+    font-size: xx-large;
  
 }
 
