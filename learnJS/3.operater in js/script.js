@@ -10,6 +10,9 @@ console.log(Z);
 let b= 14;
 b += 12 //b=b+12
 console.log(b)
-
+let P = 4;
+let Q = 6;
+let  C = P!=Q;
+console.log(C)
 
 
