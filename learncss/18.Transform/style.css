@@ -1,0 +1,23 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: #13279a;
+    margin: 80px auto;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+  /*  transform: skew(20deg, 40deg);
+    transform: translate(20px, 40px); 
+    transform: rotate(20deg);*/
+    transform-origin: top;
+}
+
+.box:hover{
+    transform: rotate(45deg);
+}

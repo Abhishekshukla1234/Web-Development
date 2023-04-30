@@ -1,0 +1,53 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+/* pseudo classes*/
+.Primary-button:link{
+    color: green;
+    padding: 10px;
+}
+.Primary-button:visited{
+    color: yellow;
+}
+.Primary-button:hover{
+    color: red;
+    background-color: aqua;
+} 
+.Primary-button:active{
+    color: black;
+    background-color: white;
+    border: solid gray;
+
+}
+
+ul li:first-child{
+    background-color: violet;
+}
+
+ul li:nth-child(2n){
+    background-color: aqua;
+}
+/* pseudo element*/
+h2::first-letter{
+    background-color: aqua;
+    font-size: 3rem;
+}
+
+p::first-line{
+    background-color: darkgoldenrod;
+}
+
+::selection{
+    color: greenyellow;
+    background-color: black;
+}
+
+/*before and after*/
+h3::before{
+    content: 'any';
+}
+.required::after{
+    content: '*';
+    color: red;
+}

@@ -1,0 +1,98 @@
+body{
+    background-color: gold;
+    border-radius: 0;
+    height: 100vw;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 200px;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    border: 2px solid white;
+    animation: orbit 4s linear infinite;
+    border-radius: 50%;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+  /*  animation-name: circle;
+    animation-name: slide-in;
+    animation-duration: 2s;*/
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    /*animation-fill-mode: forwards;*/
+    border-radius: 50%;
+}
+
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation: up-down 2s ease infinite alternate;
+}
+.dot:nth-child(2){
+    animation-delay: 0.1s;
+}
+.dot:nth-child(3){
+    animation-delay: 0.2s;
+}
+.dot:nth-child(4){
+    animation-delay: 0.3s;
+}
+@keyframes up-down{
+    from{
+        transform: translateY(-20px);
+
+    }
+    to{
+        transform: translateY(20px);
+    }
+}
+
+@keyframes orbit {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes slide-in{
+    0%{
+        transform: translate(-400px);
+    }
+    100%{
+        transform: translate(300px);
+    }
+}
+
+@keyframes circle {
+    0%, 100%{
+        transform: translate(0, 0);
+    }
+
+    25%{
+        transform: translate(300px, 0);
+    }
+    50%{
+        transform: translate(300px, 300px);
+    }
+    75%{
+        transform: translate(0, 300px);
+    }
+}
