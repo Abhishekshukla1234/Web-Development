@@ -52,8 +52,20 @@
     .feature-card{
         width: calc(50% - 10px);  
     }
+    .feature-card flex{
+        max-width: 100vw;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
     .big-feature-section,#second-big-feature{
-        flex-direction: column;
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100vw;
+    }
+    .feature-img{
+           width: 100%;
+    
+           
     }
     .footer-container{
         flex-direction: column;
@@ -86,7 +98,9 @@
     .feature-card{
         width: 100%; 
     }
+    
     .example-card{
         width: 100%;
     }
+
 }

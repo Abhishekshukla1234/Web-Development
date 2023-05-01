@@ -187,18 +187,18 @@ ul{
 .features-area{
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 40px;
+    gap: 40px; 
     margin-top: 20px;
 }
 .feature-card{
     flex-direction: column;
     gap: 40px;
-    max-width: 25%;
+    width: 25%;
     text-align: center;  
 }
 
 .feature-card img{
-    width: 60px;
+    width: 100%;
 }
 
 /* big feature section */
@@ -225,16 +225,17 @@ ul{
 /*example section */
 .example-header{
     flex-direction: column;
-    gap: 20px;
+
+    
 }
 
 .example-area{
- justify-content: space-between;
- margin-block: 30px;
+justify-content: space-between;
+ margin-block: 30px; 
  flex-wrap: wrap;
 }
 .example-card{
-    width: 23%;
+   width: 20%;
     position: relative;
     min-height: 300px;
     background: black;
