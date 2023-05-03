@@ -20,7 +20,7 @@
         transition: 0.2s ease-in-out;
     }
     .nav-links.active {
-       left: 0;
+       left: 0px;
     }
     .nav-links ul{
         flex-direction: column;
@@ -63,9 +63,7 @@
         width: 100vw;
     }
     .feature-img{
-           width: 100%;
-    
-           
+           width: 100%;  
     }
     .footer-container{
         flex-direction: column;
