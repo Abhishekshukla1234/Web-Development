@@ -9,10 +9,8 @@
 //const newwords=words;
 //newwords[1]='kiwi'
 //console.log(words)
-//console.log(newwords)
-
-
-const nums=[1,2,3,4,0,6,78];
+//console.log(newwords)//
+const nums=[1,2,3,4,0,6,78];            
 
 //Array method
 
